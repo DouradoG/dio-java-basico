@@ -6,6 +6,7 @@ public class MinhaClasse {
        String a = "Guilherme";
        String b = "da Silva Dourado";
 
+
        String c = nomeCompleto(a, b);
 
        System.out.println(c);

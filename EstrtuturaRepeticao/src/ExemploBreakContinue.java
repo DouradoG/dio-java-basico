@@ -4,10 +4,17 @@ public class ExemploBreakContinue {
         //int numero = 1;
 
         for( int resultado : contar ) {
-
-            System.out.println(resultado);
             if (resultado==6)
             break;
+            System.out.println(resultado);
+
+        }
+
+        for( int resultado : contar ) {
+            if (resultado==6)
+            continue;
+            System.out.println(resultado);
+
         }
 
         for(int numero = 1; numero <=40 ; numero ++) {
@@ -20,13 +27,6 @@ public class ExemploBreakContinue {
             
         }
 
-        for(int numero = 1; numero <=5; numero ++){
-            if(numero==3)
-                continue;
-            
-            System.out.println(numero);
-            
-        }
     }
     
 }

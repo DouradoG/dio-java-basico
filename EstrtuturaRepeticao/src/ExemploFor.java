@@ -29,6 +29,17 @@ public class ExemploFor {
 	int leng = teste2.length();
 	System.out.println(leng);
 
+	//Exemplo For Each
+
+	String variavelArray [] =  {"Fran","Jorge","Juão","Adalberto"};
+	
+        //Forma abreviada
+		for(String palavraRecebeArray : variavelArray) {
+
+	  	System.out.println(palavraRecebeArray);
+	}
+
+
 
 	}
 }

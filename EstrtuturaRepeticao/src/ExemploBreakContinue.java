@@ -23,9 +23,7 @@ public class ExemploBreakContinue {
 
             System.out.println(numero);
             
-            
-            
-        }
+        
 
     }
     
